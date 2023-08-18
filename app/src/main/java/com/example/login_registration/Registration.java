@@ -58,7 +58,7 @@
                                 public void onResponse(String response) {
                                     progressBar.setVisibility(View.GONE);
                                     if(response.equals("success")){
-                                        Toast.makeText(getApplicationContext(), "Registerations successful", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getApplicationContext(), "Registrations successful", Toast.LENGTH_SHORT).show();
                                         Intent intent= new Intent(getApplicationContext(), Login.class);
                                         startActivity(intent);
                                         finish();
